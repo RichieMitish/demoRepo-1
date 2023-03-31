@@ -145,7 +145,7 @@ CREATE SEQUENCE film_film_id_seq
     INCREMENT BY 1
     NO MAXVALUE
     NO MINVALUE
-    CACHE 1;
+    CACHE 5;
 
 
 ALTER TABLE public.film_film_id_seq OWNER TO postgres;
@@ -172,7 +172,7 @@ CREATE TABLE film (
 );
 
 
-ALTER TABLE public.film OWNER TO postgres;
+ALTER TABLE public.film OWNER TO owner;
 
 --
 -- Name: film_actor; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
