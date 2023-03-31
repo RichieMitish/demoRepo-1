@@ -10,7 +10,7 @@ create sequence actor_actor_id_seq
     increment by 1
     no maxvalue
     no minvalue
-    cache 1;
+    cache 3;
 
 set default_tablespace = '';
 
