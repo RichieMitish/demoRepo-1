@@ -9,7 +9,6 @@ create or replace procedural language plpgsql;
 create sequence actor_actor_id_seq
     increment by 1
     no maxvalue
-    no minvalue
     cache 2;
 
 set default_tablespace = '';
