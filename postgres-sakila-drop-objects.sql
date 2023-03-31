@@ -6,6 +6,7 @@ drop view if exists  nicer_but_slower_film_list;
 drop view if exists  sales_by_film_category;
 drop view if exists  sales_by_store;
 drop view if exists  staff_list;
+drop view if exists  staff_list;
 
 -- drop table  if exists s
 
