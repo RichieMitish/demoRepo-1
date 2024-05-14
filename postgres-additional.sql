@@ -1,4 +1,7 @@
 -- creating additional database objects
+-- creating additional database objects
+-- creating additional database objects
+-- creating additional database objects
 
 -- view with rules
 create table view_with_rules_t1
