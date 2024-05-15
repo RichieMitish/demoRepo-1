@@ -19,6 +19,7 @@ drop table  if exists  film cascade;
 drop table  if exists  language cascade;
 drop table  if exists  customer cascade;
 drop table  if exists  actor cascade;
+drop table  if exists  actor_additional cascade;
 drop table  if exists  category cascade;
 drop table  if exists  store cascade;
 drop table  if exists  address cascade;
