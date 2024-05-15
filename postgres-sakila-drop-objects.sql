@@ -19,6 +19,7 @@ drop table  if exists  film cascade;
 drop table  if exists  language cascade;
 drop table  if exists  customer cascade;
 drop table  if exists  actor cascade;
+drop table  if exists  junior cascade;
 drop table  if exists  category cascade;
 drop table  if exists  store cascade;
 drop table  if exists  address cascade;
@@ -40,6 +41,7 @@ drop function  if exists  _group_concat(text, text) cascade;
 
 -- drop sequence  if exists s
 drop sequence  if exists  actor_actor_id_seq;
+drop sequence  if exists  junior_junior_id_seq;
 drop sequence  if exists  address_address_id_seq;
 drop sequence  if exists  category_category_id_seq;
 drop sequence  if exists  city_city_id_seq;
